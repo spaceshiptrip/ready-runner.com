@@ -1,17 +1,17 @@
 {
   "name": "cal-app",
   "version": "1.0.0",
+  "homepage": "https://ready-runner.com",
   "description": "Simple FullCalendar app",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-		"start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.2",
-    "fullcalendar": "^6.1.15"
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
+
